@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Philosopher;
+  src: url(../fonts/Philosopher-Regular.woff);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-VariableFont.woff);
+}
+
+body {
+  line-height: 1.5;
+  max-width: 60ch;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: Inter;
+  color: #212427;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Philosopher;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+nav {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: aliceblue;
+}
+section {
+  margin-bottom: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+aside {
+  background-color: whitesmoke;
+  max-width: 100%;
+  border: 2px solid #1e11d4;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 2rem auto;
+  border-radius: 2%;
+  color: black;
+}
+abbr {
+  text-decoration: none;
+  border-bottom: 1.5px dotted lightslategray;
+}
+button {
+  padding: 0.8rem;
+  background-color: whitesmoke;
+  color: #1e11d4;
+  border: solid #1e11d4;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
