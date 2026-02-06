@@ -8,7 +8,7 @@
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1.5rem;
   max-width: 60ch;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -17,9 +17,14 @@ body {
 }
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: Philosopher;
+  text-wrap: balance;
+  hyphens: auto;
+}
+p {
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 img {
   max-width: 100%;
@@ -30,6 +35,13 @@ img {
 nav {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
+}
+nav a:hover {
+  background-color: #1e11d4;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 2px;
+  border-radius: 5%;
 }
 ul {
   list-style-type: none;
@@ -46,22 +58,49 @@ aside {
   background-color: whitesmoke;
   max-width: 100%;
   border: 2px solid #1e11d4;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 0rem 2rem;
   margin: 2rem auto;
   border-radius: 2%;
   color: black;
+  line-height: 1.5rem;
+}
+dd {
+  padding-bottom: 1rem;
+  font-weight: bold;
 }
 abbr {
   text-decoration: none;
   border-bottom: 1.5px dotted lightslategray;
 }
-button {
-  padding: 0.8rem;
+
+section a:hover {
   background-color: whitesmoke;
+}
+
+.cta-knap {
+  text-decoration: none;
+  background-color: #1e11d4;
+  display: inline-block;
+  color: whitesmoke;
+  margin: 0 auto;
+  margin-left: 3rem;
+  border: solid #1e11d4;
+  border-width: 1px;
+  margin-bottom: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.cta-knap:hover {
+  text-decoration: none;
+  background-color: aliceblue;
+  display: inline-block;
   color: #1e11d4;
   border: solid #1e11d4;
-  display: block;
-  margin: 0 auto;
-  margin-top: 2rem;
+  border-width: 1px;
   margin-bottom: 4rem;
+  align-items: center;
 }
